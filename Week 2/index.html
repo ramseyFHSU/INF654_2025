@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 2</title>
+    <style>
+      /* .row > div {
+        padding: 10px;
+        background: wheat;
+        border: 1px solid;
+        line-height: 60px;
+      }
+
+      .row {
+        margin: 40px auto;
+      } */
+
+      .col > div {
+        background: burlywood;
+        height: 120px;
+      }
+    </style>
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- hide helpers -->
+    <div class="container">
+      <h4 class="hide">hide me on all screens</h4>
+      <h4 class="hide-on-small-only">hide me on all small screens</h4>
+      <h4 class="hide-on-med-only">hide me on all screens</h4>
+      <h4 class="hide-on-large-only">hide me on all screens</h4>
+      <h4 class="hide-on-med-and-down">hide me on medium and down screens</h4>
+
+      <!-- Colors -->
+      <h5 class="amber">Forward Thinking and world ready</h5>
+      <h5 class="amber lighten-4">Forward Thinking and world ready</h5>
+      <h5 class="amber lighten-1">Forward Thinking and world ready</h5>
+      <h5 class="amber darken-1">Forward Thinking and world ready</h5>
+
+      <!-- Alignments -->
+      <h5 class="center-align">Center Alignment</h5>
+      <h5 class="left-align">left Alignment</h5>
+      <h5 class="right-align">right Alignment</h5>
+      <h5 class="grey valign-wrapper" style="height: 200px">
+        vertical Alignment
+      </h5>
+
+      <!-- Truncte -->
+      <p class="truncate">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+        assumenda voluptate deserunt quam. Tenetur ex placeat, officiis eaque
+        molestias perspiciatis dolores exercitationem corporis laboriosam!
+        Dolore!
+      </p>
+
+      <!-- Buttons -->
+      <a href="#" class="btn">Button</a>
+      <a href="#" class="btn-small">Button</a>
+      <a href="#" class="btn-large">Button</a>
+      <a href="#" class="btn-flat">Button</a>
+      <a href="#" class="btn amber">Button</a>
+      <a href="#" class="btn amber black-text">Button</a>
+      <a href="#" class="btn amber waves-effect black-text">Button</a>
+      <a href="#" class="btn amber waves-effect waves-purple black-text"
+        >Button</a
+      >
+      <a href="#" class="btn disabled">Button</a>
+      <a href="#" class="btn-floating"><i class="material-icons">close</i></a>
+      <a href="#" class="btn-floating pulse"
+        ><i class="material-icons">close</i></a
+      >
+    </div>
+
+    <!-- icons -->
+    <h1>Icons</h1>
+    <i class="material-icons red-text">error</i>
+    <i class="material-icons yellow-text text-darken-4">cloud</i>
+    <i class="material-icons yellow-text text-darken-4">folder</i>
+    <i class="material-icons yellow-text text-darken-4">warning</i>
+    <a href="" class="btn">
+      <span>email</span><i class="material-icons left">email</i>
+    </a>
+    <a href="" class="btn">
+      <span>send</span><i class="material-icons left">send</i>
+    </a>
+
+    <!-- Grid -->
+    <h1>Grid</h1>
+    <div class="row">
+      <div class="col">Sample content</div>
+      <div class="col s12">Sample content</div>
+      <div class="col s3">Sample content</div>
+      <div class="col s2">Sample content</div>
+      <div class="col s4 m6">Sample content</div>
+    </div>
+
+    <div class="row">
+      <div class="col s6">Sample content</div>
+      <div class="col s6">Sample content</div>
+      <div class="col s6">Sample content</div>
+      <div class="col s6">Sample content</div>
+    </div>
+
+    <div class="row">
+      <div class="col s6 m3 l4">Sample content</div>
+      <div class="col s6 m3 l4">Sample content</div>
+      <div class="col s6 m3 l4">Sample content</div>
+      <div class="col s6 m3 l4">Sample content</div>
+    </div>
+
+    <!-- Z-Depth -->
+
+    <div class="col s12 m2">
+      <p class="z-depth-1">z-depth-1</p>
+    </div>
+    <div class="col s12 m2">
+      <p class="z-depth-2">z-depth-2</p>
+    </div>
+    <div class="col s12 m2">
+      <p class="z-depth-3">z-depth-3</p>
+    </div>
+    <div class="col s12 m2">
+      <p class="z-depth-4">z-depth-4</p>
+    </div>
+    <div class="col s12 m2">
+      <p class="z-depth-5">z-depth-5</p>
+    </div>
+
+    <!-- NavBar -->
+    <div class="container">
+      <nav class="amber">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="#" class="brand-logo">Logo</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul class="hide-on-med-and-down right">
+              <li><a href="#">item 1</a></li>
+              <li><a href="#">item 2</a></li>
+              <li><a href="#">item 3</a></li>
+              <li><a href="#">item 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-menu">
+        <li><a href="#">item 1</a></li>
+        <li><a href="#">item 2</a></li>
+        <li><a href="#">item 3</a></li>
+        <li><a href="#">item 4</a></li>
+      </ul>
+    </div>
+
+    <!-- Cards -->
+
+    <div class="container">
+      <h3>Cards</h3>
+      <div class="card blue-grey darken-1">
+        <div class="card-image">
+          <img src="images/js.png" alt="" />
+          <a href="#" class="halfway-fab btn-floating red pulse"
+            ><i class="material-icons">favorite</i></a
+          >
+        </div>
+        <div class="card-content">
+          <span class="card-title">JS</span>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
+            accusamus ad, vel recusandae omnis placeat atque illum qui eaque
+            possimus, iste, reiciendis quae velit corrupti.
+          </p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+      <div class="card blue-grey darken-1">
+        <div class="card-image">
+          <img src="images/js.png" alt="" />
+          <a href="#" class="halfway-fab btn-floating red pulse"
+            ><i class="material-icons">favorite</i></a
+          >
+        </div>
+        <div class="card-content">
+          <span class="card-title">JS</span>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
+            accusamus ad, vel recusandae omnis placeat atque illum qui eaque
+            possimus, iste, reiciendis quae velit corrupti.
+          </p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const elems = document.querySelectorAll(".sidenav");
+        M.Sidenav.init(elems);
+      });
+    </script>
+  </body>
+</html>
