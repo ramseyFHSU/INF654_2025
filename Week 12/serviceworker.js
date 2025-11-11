@@ -7,6 +7,7 @@ importScripts(
 );
 
 // Initialize Firebase in the service worker
+
 firebase.initializeApp({
   apiKey: "AIzaSyC2EVrwSGGXGoOHNE_xcsyhndEKEWZpric",
   authDomain: "taskmanager-78c9a.firebaseapp.com",

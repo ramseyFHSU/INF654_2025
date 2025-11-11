@@ -43,7 +43,6 @@ export async function getTasksFromFirebase() {
     }
     const userId = currentUser.uid;
     const userDocRef = doc(db, "users", userId);
-    console.log(userDocRef);
     const taskRef = collection(userDocRef, "tasks");
     const querySnapshot = await getDocs(taskRef);
     querySnapshot.forEach((doc) => {
